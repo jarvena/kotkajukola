@@ -1,0 +1,193 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": null,
+                "club": "Kymin Suunnistajat",
+                "contact_person": "Mikko Kiiski",
+                "email": "mikko.kiiski@iki.fi",
+                "www": "1",
+                "aluevoimassa_alkaa": "2020-09-23 00:00:00",
+                "aluevoimassa_loppuu": "2026-06-20 00:00:00",
+                "lisatiedot": "<p>Jukolan viesti 2026 harjoituskielto. Kaikki liikkuminen, suunnistaminen ja kartan kanssa alueella liikkuminen on kielletty.<\/p>\n\n<p>Poikkeuksena sallitaan kuitenkin hiihtoharjoittelu ja tapahtumiin osallistuminen 30.4.2026 asti seuraavasti:<br \/>\n&nbsp;- Lentokent&auml;ll&auml; tai moottoriurheilukeskuksessa j&auml;rjestett&auml;viin yleis&ouml;tapahtumiin osallistuminen.<br \/>\n&nbsp;- Hiiht&auml;minen latukoneella kunnostetulla Lentokent&auml;n ladulla.<br \/>\n&nbsp;- Siirtyminen Lentokent&auml;ntiet&auml; pitkin tapahtumiin tai hiihtoharjoitukseen.<\/p>\n\n<p>1.5.2026 alkaen kaikki liikkuminen harjoituskieltoalueella on kielletty.<\/p>",
+                "phone": "0500655071",
+                "mittakaava": null,
+                "maastotyyppi": null,
+                "maaston_erityispiirteet": null,
+                "maaston_korkeus": null,
+                "valmistumisvuosi": null,
+                "osoite": "SILMUPOLKU 11 48400 KOTKA",
+                "kl_numero": null,
+                "kv_numero": null,
+                "sijainti": null,
+                "alue": "Kaakko",
+                "raporttinumero": "K2010400",
+                "kartanlaji": "7",
+                "kayravali": null,
+                "club_id": "247",
+                "file": null
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            26.895797252655,
+                            60.55929349823
+                        ],
+                        [
+                            26.900045871735,
+                            60.560242708059
+                        ],
+                        [
+                            26.901547908783,
+                            60.563005804727
+                        ],
+                        [
+                            26.899273395538,
+                            60.565547223338
+                        ],
+                        [
+                            26.898522377014,
+                            60.567055107583
+                        ],
+                        [
+                            26.899166107178,
+                            60.569406423082
+                        ],
+                        [
+                            26.929893493652,
+                            60.577186687175
+                        ],
+                        [
+                            26.92946434021,
+                            60.579126190334
+                        ],
+                        [
+                            26.929678916931,
+                            60.581360690949
+                        ],
+                        [
+                            26.92268371582,
+                            60.586883038919
+                        ],
+                        [
+                            26.92268371582,
+                            60.591140082601
+                        ],
+                        [
+                            26.910238265991,
+                            60.595228002325
+                        ],
+                        [
+                            26.912040710449,
+                            60.59944181085
+                        ],
+                        [
+                            26.929378509521,
+                            60.600579444868
+                        ],
+                        [
+                            26.926374435425,
+                            60.605466601619
+                        ],
+                        [
+                            26.927061080933,
+                            60.609679073957
+                        ],
+                        [
+                            26.921482086182,
+                            60.612849296092
+                        ],
+                        [
+                            26.909465789795,
+                            60.616050092897
+                        ],
+                        [
+                            26.898822784424,
+                            60.62059804743
+                        ],
+                        [
+                            26.895389556885,
+                            60.625313767543
+                        ],
+                        [
+                            26.893501281738,
+                            60.629765001985
+                        ],
+                        [
+                            26.88045501709,
+                            60.629428234185
+                        ],
+                        [
+                            26.869468688965,
+                            60.628923075892
+                        ],
+                        [
+                            26.858224868774,
+                            60.62860734794
+                        ],
+                        [
+                            26.858267784119,
+                            60.628017980825
+                        ],
+                        [
+                            26.857967376709,
+                            60.626797114678
+                        ],
+                        [
+                            26.857495307922,
+                            60.625134136435
+                        ],
+                        [
+                            26.856250762939,
+                            60.621681604015
+                        ],
+                        [
+                            26.855220794678,
+                            60.618734027829
+                        ],
+                        [
+                            26.854019165039,
+                            60.614101578204
+                        ],
+                        [
+                            26.849899291992,
+                            60.60137997811
+                        ],
+                        [
+                            26.842002868652,
+                            60.598599093139
+                        ],
+                        [
+                            26.851787567139,
+                            60.594986391223
+                        ],
+                        [
+                            26.864490509033,
+                            60.580823860022
+                        ],
+                        [
+                            26.871356964111,
+                            60.569860496242
+                        ],
+                        [
+                            26.883716583252,
+                            60.563280692578
+                        ],
+                        [
+                            26.891934871674,
+                            60.55796455766
+                        ],
+                        [
+                            26.895797252655,
+                            60.55929349823
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "appTitle": "Kotkajukola karttaselain",
+    "mapLayers": "Karttatasot",
+    "backgroundMap": "Taustakartta",
+    "Satellite": "Satelliittikuva",
+    "overlays": "Aineistot",
+    "eventCentre": "Kisakeskus",
+    "Tents": "Teltat",
+    "Harvests": "Metsänkäyttöilmoitukset 2022 jälkeen",
+    "oldMap": "Vanhat kartat"
+}

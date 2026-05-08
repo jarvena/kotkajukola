@@ -1,0 +1,11 @@
+{
+    "appTitle": "Kotkajukola map viewer",
+    "mapLayers": "Map layers",
+    "backgroundMap": "Background map",
+    "Satellite": "Satellite image",
+    "overlays": "Overlays",
+    "eventCentre": "Event centre",
+    "Tents": "Tents",
+    "Harvests": "Harvests since 2022",
+    "oldMap": "Old maps"
+}
