@@ -151,7 +151,7 @@ export default function LayerSelector({bgState, overlayVisibilityState}) {
             <FormControlLabel control={<Checkbox defaultChecked onChange={(e) => setOverlayVisibility(e, overlayVisibilityState, ['oldMap'])} sx={{ color: 'white' }}/>} label={t('oldMap')} />
             {/* <FormControlLabel control={<Checkbox defaultChecked onChange={(e) => setOverlayVisibility(e, overlayVisibilityState, ['arena'])} sx={{ color: 'white' }}/>} label={t('eventCentre')} /> */}
             <FormControlLabel control={<Checkbox defaultChecked onChange={(e) => setOverlayVisibility(e, overlayVisibilityState, ['tentFill', 'tentBorder', 'tentLabel'])} sx={{ color: 'white' }}/>} label={t('Tents')} />
-            {/* <FormControlLabel control={<Checkbox defaultChecked onChange={(e) => setOverlayVisibility(e, overlayVisibilityState, ['forestFill'])} sx={{ color: 'white' }}/>} label={t('Harvests')} /> */}
+            <FormControlLabel control={<Checkbox defaultChecked onChange={(e) => setOverlayVisibility(e, overlayVisibilityState, ['forestFill'])} sx={{ color: 'white' }}/>} label={t('Harvests')} />
           </FormGroup>
         </Box>
       </SwipeableDrawer>
