@@ -61,9 +61,9 @@ export default function Map({bgMap, overlayVisibility}) {
                     tiles: ['./data/kisakeskus/{z}/{x}/{y}.png'], //url: "pmtiles://http://localhost:3000/data/kisakeskus.pmtiles", //switch to pmtiles in future?
                     tileSize: 256,
                     attribution: 'Jukola 2026',
-                    maxzoom: 19,
+                    maxzoom: 17,
                     minzoom: 10,
-                    bounds: [27.1453839856409793, 61.6373979881179324, 27.1558997475888866, 61.6446067998338947]
+                    bounds: [26.883, 60.564, 26.906, 60.582] // [2992605, 8526515, 2995227, 8530691] //27.1453839856409793, 61.6373979881179324, 27.1558997475888866, 61.6446067998338947]
                 },
                 forbiddenAreaPolygon: {
                     type: 'geojson',
