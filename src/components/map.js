@@ -45,7 +45,7 @@ export default function Map({bgMap, overlayVisibility}) {
                     attribution: 'Jukola 2026',
                     maxzoom: 16,
                     minzoom: 10,
-                    //bounds: [27+8/60+2.79/3600, 61+37/60+12.37/3600, 27+10/60+45.88/3600, 61+38/60+54.27/3600], //left, bottom, right, top
+                    bounds: [26.8185, 60.5480, 26.961, 60.629]//[27+8/60+2.79/3600, 61+37/60+12.37/3600, 27+10/60+45.88/3600, 61+38/60+54.27/3600], //left, bottom, right, top
                 },
                 oulankiTiles: {
                     type: 'raster',
@@ -78,6 +78,11 @@ export default function Map({bgMap, overlayVisibility}) {
                   data: './data/metsailmoitukset.geojson',
                   attribution: 'Metsäkeskus'
                 },
+                trailSource: {
+                  type: 'geojson',
+                  data: './data/polkuja.geojson',
+                  attribution: 'OpenStreetMap',
+                },
                 terrainSource: {
                   type: 'raster-dem',
                   url: './data/elevationtiles/tileset.json',
@@ -95,6 +100,28 @@ export default function Map({bgMap, overlayVisibility}) {
                     type: 'raster',
                     source: 'mapantTiles',
                     maxzoom: 20,
+                },
+                {
+                  id: 'trailstroke',
+                  type: 'line',
+                  source: 'trailSource',
+                  layout: {
+                    'visibility': 'visible',
+                  },
+                  paint: {
+                    'line-color': '#000000',
+                    'line-dasharray': [4, 1],
+                    'line-width': 
+                    [
+                        "interpolate",
+                        ["exponential", 2],
+                        ["zoom"],
+                        12, 0.2,
+                        14, 1,
+                        16, 2,
+                        18, 20.0]
+
+                  }
                 },
                 {
                   id: 'gSat',
