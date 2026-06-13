@@ -47,14 +47,14 @@ export default function Map({bgMap, overlayVisibility}) {
                     minzoom: 10,
                     bounds: [26.8185, 60.5480, 26.961, 60.629]//[27+8/60+2.79/3600, 61+37/60+12.37/3600, 27+10/60+45.88/3600, 61+38/60+54.27/3600], //left, bottom, right, top
                 },
-                oulankiTiles: {
+                venlaTiles: {
                     type: 'raster',
-                    tiles: ['./data/oulanki/{z}/{x}/{y}.png'],
+                    tiles: ['./data/venlakartta/{z}/{x}/{y}.png'],
                     tileSize: 256,
                     attribution: 'Jukola 2026',
-                    maxzoom: 16,
+                    maxzoom: 17,
                     minzoom: 10,
-                    bounds: [27.0962589076127998,61.5920828865998331, 27.1475246240962527,61.6307631235341518],
+                    //bounds: [27.0962589076127998,61.5920828865998331, 27.1475246240962527,61.6307631235341518],
                 },
                 arenaTiles: {
                     type: 'raster',
@@ -132,14 +132,14 @@ export default function Map({bgMap, overlayVisibility}) {
                   }
                 },
                 {
-                  id: 'oulanki',
-                  type: 'raster',
-                  source: 'oulankiTiles',
-                },
-                {
                     id: 'oldMap',
                     type: 'raster',
                     source: 'oldMapTiles',
+                },
+                {
+                  id: 'venla',
+                  type: 'raster',
+                  source: 'venlaTiles',
                 },
                 {
                   id: 'arena',
