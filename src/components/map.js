@@ -54,7 +54,7 @@ export default function Map({bgMap, overlayVisibility}) {
                     attribution: 'Jukola 2026',
                     maxzoom: 17,
                     minzoom: 10,
-                    //bounds: [27.0962589076127998,61.5920828865998331, 27.1475246240962527,61.6307631235341518],
+                    bounds: [26.8583, 60.5763, 26.8999, 60.6048],
                 },
                 arenaTiles: {
                     type: 'raster',
